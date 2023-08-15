@@ -1,24 +1,10 @@
 .App {
+  width: 1920px;
+  height: 1080px;
+  overflow: scroll;
   text-align: center;
-}
+  align-items: center;
+  background-image: url("https://www.brookings.edu/wp-content/uploads/2021/01/shutterstock_1558058690_small.jpg?resize=1920,1080");
+  background-color: #cccccc;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
